@@ -1,0 +1,41 @@
+body,
+html {
+	background-color: #e3e3e3;
+	color: white;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #89bdd3;
+}
+
+.but-surprise {
+	float: right;
+}
+
+.btn {
+	background-color: white;
+	width: 103px;
+	color: black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.buttons {
+	padding-top: 10px;
+}
+
+#searchForm {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: none;
+	padding: 5px;
+}
+
+#entry {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: none;
+	border-bottom: 2px;
+	background-color: white;
+}
