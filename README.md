@@ -1,2 +1,4 @@
 # wiki-search
-Users the Wiki API to search from an outside source.  Also provides a means to go to a random Wiki page.
+An app that searches using the Wikipedia API.  
+
+Features an Autocomplete and can take you to a random entry when searching.

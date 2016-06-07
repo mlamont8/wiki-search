@@ -1,5 +1,7 @@
 $(document).ready(function () {
 	var searchTerm;
+    
+    // wikipedias API url
 	var url = 'https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&callback=?&srsearch=';
 
 	// for autocomplete
@@ -48,7 +50,7 @@ $(document).ready(function () {
 				//clear results
 				$('#results').empty();
 				// cycle through results
-				for (i = 0; i < data.query.search.length; i++) {
+				for (var i = 0; i < data.query.search.length; i++) {
 
 					var ret = "<p><h3>" + data.query.search[i].title + "</h3></p><p>" + data.query.search[i].snippet + "</p>";
 					$('#results').append("<div id='entry'><p><a href='https://en.wikipedia.org/wiki/" + data.query.search[i].title + "'" +
