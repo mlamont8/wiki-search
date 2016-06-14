@@ -1,4 +1,3 @@
-# wiki-search
-An app that searches using the Wikipedia API.  
+# Offline Wiki Search
 
-Features an Autocomplete and can take you to a random entry when searching.
+Uses the Wikipedia API to send search terms and receive results based on those searches.  Includes an autocomplete search form as well as a random result button based on search terms.
